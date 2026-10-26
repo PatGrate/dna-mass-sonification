@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="dna-mass-sonifier",
+    name="dna-mass-sonifier-pg",
     version="1.0.0",
     author="Patrick Grate",
     author_email="grate.pat@gmail.com",
