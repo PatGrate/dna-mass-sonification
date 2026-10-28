@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="dna-mass-sonifier-pg",
-    version="1.0.6",
+    version="1.0.7",
     author="Patrick Grate",
     author_email="grate.pat@gmail.com",
     description="An algorithmic framework mapping DNA molecular mass directly to absolute musical frequencies.",
@@ -11,11 +11,12 @@ setup(
     url="https://github.com",
     packages=find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-        "Topic :: Scientific/Engineering :: Bio-Informatics",
-        "Topic :: Multimedia :: Sound/Audio :: Conversion",
+           project_urls={
+        "Source": "https://github.com",
+        "Preprint / Paper": "https://zenodo.org",
+        "Bug Tracker": "https://github.com/issues",
+    },
+
     ],
     python_requires=">=3.6",
 )
