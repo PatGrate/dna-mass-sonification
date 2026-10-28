@@ -1,4 +1,6 @@
 # DNA Direct Acoustic Scaling Model (Mass-to-Frequency Sonification)
+[![Zenodo Preprint](https://shields.io)](https://zenodo.org)
+[![License: MIT](https://shields.io)](https://opensource.org)
 
 An algorithmic framework that maps the four nitrogenous bases of DNA to absolute musical frequencies using unmanipulated physical mass ratios (Daltons to Hertz). By anchoring the physical midpoint of the genetic spectrum directly to Middle C, this model eliminates arbitrary human scaling parameters to discover natural acoustics embedded in subatomic physics.
 
@@ -38,9 +40,10 @@ cd dna-mass-sonification
 python dna_sonifier.py
 ```
 
-## 📄 License
+## 📄 License & Citation
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. This license allows for broad scientific adaptation provided that original attribution to the author is explicitly retained.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 
----
-*Developed for publication alongside the formal preprint manuscript: "A Direct Acoustic Scaling Model of DNA: Mapping Molecular Mass to Uniform Structural Resonance".*
+If you use this deterministic framework, mathematical methodology, or source code in your academic research, musicology, or algorithmic sequence analysis, please cite the official public record:
+
+> Grate, P. M. (2026). *A Direct Acoustic Scaling Model of DNA: Mapping Molecular Mass to Uniform Structural Resonance*. Zenodo. https://zenodo.org
