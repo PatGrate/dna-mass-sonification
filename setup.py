@@ -11,12 +11,14 @@ setup(
     url="https://github.com",
     packages=find_packages(),
     classifiers=[
-           project_urls={
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    project_urls={
         "Source": "https://github.com",
         "Preprint / Paper": "https://zenodo.org",
         "Bug Tracker": "https://github.com/issues",
     },
-
-    ],
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )
