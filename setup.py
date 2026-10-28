@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="dna-mass-sonifier-pg",
-    version="1.0.7",
+    version="1.0.8",
     author="Patrick Grate",
     author_email="grate.pat@gmail.com",
     description="An algorithmic framework mapping DNA molecular mass directly to absolute musical frequencies.",
